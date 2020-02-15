@@ -1,0 +1,76 @@
+--[ Settings ] --
+_G.Player = "AlienWalker1092" -- Name Of Player
+_G.SetPower = 994 -- Set Power 
+_G.SetEndurance = 993 -- Set Endurance
+_G.SetSpecial = 19 -- Set Special
+_G.SetPoints = 31 -- Set Points
+_G.SetLevel = 31 -- SetLevel 
+_G.SetStand = "discordlol" -- Set Stand
+_G.SetStorage1 = "" -- Set Storage1
+_G.SetStorage2 = "" -- Set Storage2
+_G.SetStorage3 = "" -- Set Storage3
+_G.SetWorth = "" -- Set Worth
+_G.SetMoney = 312-- Set Money
+_G.SetRequiem = false -- true or false
+--[ Settings ] --
+
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Power
+local A_3 =  _G.SetPower
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Endurance
+local A_3 =  _G.SetEndurance
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Special
+local A_3 =  _G.SetSpecial
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Level
+local A_3 =  _G.SetLevel
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Stand
+local A_3 =  _G.SetStand
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Storage1
+local A_3 =  _G.SetStorage1
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Storage2
+local A_3 =  _G.SetStorage2
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Storage3
+local A_3 =  _G.SetStorage3
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Points
+local A_3 =  _G.SetPoints
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Worthy
+local A_3 =  _G.SetWorth
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Moneys
+local A_3 =  _G.SetMoney
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = game.Players[_G.Player].Requiem
+local A_3 =  _G.SetRequiem
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)

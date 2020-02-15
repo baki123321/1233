@@ -1,5 +1,5 @@
 --[ Settings ] --
-_G.Player = "AlienWalker1092" -- Name Of Player
+_G.Player = "facq" -- Name Of Player
 _G.SetPower = 994 -- Set Power 
 _G.SetEndurance = 993 -- Set Endurance
 _G.SetSpecial = 19 -- Set Special

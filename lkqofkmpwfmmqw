@@ -1,0 +1,69 @@
+--Settings you can change it
+--[
+Name = "0x2x2x2x2x2x2x2x2x0" -- your name or anyone name need to be like that "carl" for example
+Power = 12 -- Set Power
+Endurance = 21 -- Set Endurance
+Special = 31 -- Set Special
+Points = 99 -- Set Points
+Level = 10000 -- Set Level
+Money = 1001 -- Set Money
+StorageStand1 = "The World" -- set storage1 stand
+StorageStand2 = "The World" -- set storage2 stand
+--]
+-- print all stands 
+for _,v in pairs(game.ReplicatedStorage.Stands:GetChildren()) do 
+	warn(v.Name)
+	end 
+
+	for _,v in pairs(game.ReplicatedStorage.StandsB:GetChildren()) do 
+	warn(v.Name)
+	end 
+	-- click f9 to see stands 
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Power
+local A_4 = tonumber(Power)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Endurance
+local A_4 = tonumber(Endurance)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Special
+local A_4 = tonumber(Special)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Points
+local A_4 = tonumber(Points)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Level
+local A_4 = tonumber(Level)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Moneys
+local A_4 = tonumber(Money)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Ps
+local A_4 = tostring(StorageStand2)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)
+local A_1 = "\0\37\83\200\12\148\80\163\86\57\74\153\128\143\88\195\174\167\74\123\34\225\155\39\108\51\111\215\249\165\96\24\240\118\0\136\14\177\12\74\216\75\139\43\223\92\133\36\111\98\123\213\40\34\229\78\164\69\224\106\252\172\198\85\133\6\23\37\232"
+local A_2 = 444444
+local A_3 = game:GetService("Players")[Name].Pss
+local A_4 = tostring(StorageStand1)
+local Event = game:GetService("ReplicatedStorage").Logic.pucci
+Event:FireServer(A_1, A_2, A_3, A_4)

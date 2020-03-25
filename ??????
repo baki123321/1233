@@ -1,0 +1,81 @@
+ for _,v in pairs(game.Players:GetPlayers()) do 
+local A_1 = 9456
+local A_2 = v.Power
+local A_3 = 30000
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Endurance
+local A_3 = 30000
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Special
+local A_3 = 30000
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+
+local A_1 = 9456
+local A_2 = v.Level
+local A_3 = 10001
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+
+local A_1 = 9456
+local A_2 = v.Points
+local A_3 = 1
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Worthy
+local A_3 = 9999999999
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Moneys
+local A_3 = 5555555555559999999999
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+
+local A_1 = 9456
+local A_2 = v.Requiem
+local A_3 = true
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+
+local A_1 = 9456
+local A_2 = v.Stand
+local A_3 = tostring("Kiralovania")
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Storage1
+local A_3 = tostring("None Over Heaven")
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Storage2
+local A_3 = tostring("UwU")
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Storage3
+local A_3 = tostring("Dark Experience Requiem")
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Storage4
+local A_3 = tostring("Failed Heaven")
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Storage5
+local A_3 = tostring("Meme Requiem")
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+local A_1 = 9456
+local A_2 = v.Storage6
+local A_3 = tostring("The World Greatest High")
+local Event = game:GetService("ReplicatedStorage").Logic.hidedamage
+Event:FireServer(A_1, A_2, A_3)
+end 
